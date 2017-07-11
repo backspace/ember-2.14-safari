@@ -1,0 +1,10 @@
+Hello from route 2! {{#link-to "index"}}Index{{/link-to}}
+
+{{input value=newPost}}
+First post title: {{firstTitle}}
+
+<ul>
+	{{#each model as |post|}}
+		<li>{{post.title}}</li>
+	{{/each}}
+</ul>
